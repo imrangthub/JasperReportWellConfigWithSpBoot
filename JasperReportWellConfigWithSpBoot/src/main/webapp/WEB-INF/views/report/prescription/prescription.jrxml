@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="prescription" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="495" leftMargin="50" rightMargin="50" topMargin="20" bottomMargin="20" uuid="6b4d9be1-3fae-4115-b1bf-ed72b864fab2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="206" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="98" width="495" height="70" backcolor="rgba(255, 255, 255, 0.0)" uuid="fb47fb8f-b1c7-4607-80c8-4d20c1106886"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="99" width="90" height="15" uuid="de71123d-0fe9-4b75-b8b3-79d5546759bc"/>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Invoice No :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="117" width="89" height="15" uuid="3dc2299f-5393-44aa-9f90-1697397ee66d"/>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Patient Name :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="136" width="85" height="15" uuid="f33c6e31-b25a-4e8f-9bff-d37fe64f83a7"/>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Ref. Doctor :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="133" y="99" width="90" height="15" uuid="c2c93d6f-2f82-46d3-9337-9578afae0fab"/>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Invoice Date :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="249" y="99" width="90" height="15" uuid="b43d704a-a283-41ed-84dc-f0d3eef964c1"/>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Delivery Date :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="99" width="90" height="15" uuid="a77444b4-d455-4410-a50c-d6281e8f4f04"/>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Report No :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="117" width="90" height="15" uuid="f1a8830d-0133-45bd-91ec-f07b981ec0aa"/>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Gender   :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="172" y="67" width="181" height="30" uuid="52f3c517-73d0-4b43-819b-6cd3b7998230"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[Report Name]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="175" width="495" height="30" uuid="90167689-a067-4a4b-9144-cfa8eedae699"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Test Name :"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="285" y="115" width="59" height="15" uuid="eac2ba92-3386-4d7f-8b89-1422274fa7e7"/>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Age   :]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="0" y="67" width="171" height="30" uuid="787a5f21-e0f9-40a3-a0af-699509ea2cce"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="USPS" drawText="false" checksumRequired="false">
+					<jr:codeExpression><![CDATA["1234"]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement x="354" y="67" width="141" height="30" uuid="569f55de-1e44-48ee-878a-959d77faa35d"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="USPS" drawText="false" checksumRequired="false">
+					<jr:codeExpression><![CDATA["1234"]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+		</band>
+	</title>
+	<detail>
+		<band height="407" splitType="Stretch">
+			<componentElement>
+				<reportElement x="4" y="167" width="29" height="179" uuid="afc5db4a-5c4b-4045-b5a3-f10eceb94858"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="USPS" drawText="false" checksumRequired="false" rotation="Left">
+					<jr:codeExpression><![CDATA["1234"]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<staticText>
+				<reportElement x="4" y="346" width="29" height="39" uuid="2f768f39-ae0d-4f4d-be02-dc479f83febd"/>
+				<textElement textAlignment="Center" verticalAlignment="Top" rotation="Left" markup="none">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[HIN:]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="41" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="90" height="15" uuid="bb7db28d-e791-4e86-8bb4-cbcef753da33"/>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Prepared By :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="15" width="133" height="15" uuid="55f16504-0b92-4868-95dc-656df6af71d1"/>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Mysoft Administration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="158" y="0" width="179" height="40" uuid="c914c309-309d-4030-8b8f-5839335e0daa"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Mysoft Administration]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="385" y="0" width="110" height="30" uuid="a72c998c-4d32-4ded-928a-b0749175182e"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Doctor Name here ..."]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
