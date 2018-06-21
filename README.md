@@ -1,0 +1,2 @@
+# JasperReportWellConfigWithSpBoot
+JasperReportWellConfigWithSpBoot jViProd
